@@ -1,0 +1,38 @@
+**Use Case: Recommendation Engine**
+
+*World's Biggest Job Recommender*
+
+	Membership from few million to 200 million in 8 years
+	Millions of company pages
+	Millions hired using the service
+	
+Problem statement:
+
+	Neded recommendation platform
+	Terabytes of data: rich and structured data
+	Huge semi-structured data; exponential growth
+	Goal: get right information to right user at the right time
+	Talent matching: Real-time suggestions for top candidates
+	
+*Key Challenges*
+
+	Huge data flow
+	Needs scalable infrastructure to process data
+	Relevance is most important consideration
+	Latency of recommendations also important
+	Need for platform where complex algorithms can be created and implemented
+	Profile recommendation involves very complex computations
+	
+*Solution Proposed*
+
+	People don't reinvent themselves
+	Company could serve similar profiles from cache; then compute fresh recommendations and repopulate the cache
+	Used Hadoop to generate portion of recommendations in mapper then combine them into final recommendation set in Reducers
+	Hadoop: easily generate similar profiles for members; copy results to online caches
+	Offline batch computations copied to online caches
+	Aggressive online caching policy
+	
+*Job Recommendations*
+
+	Scaled 'similar profiles' while maintaining high precision
+	Helped transform company into leading professional network
