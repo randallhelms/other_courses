@@ -1,0 +1,11 @@
+username
+
+google112352-student@qwiklabs.net
+
+password
+
+WF3jJw3wXWb
+
+GCP Project ID
+
+qwiklabs-gcp-d0c62eb1131d99c4
