@@ -248,7 +248,10 @@ From Plan to Product
 		plans
 		writes software that follows design
 		puts program on server
-	Publishing documentation for API: usually webpages or pdfs, explaining authentication schemas, endpoints, data formatting, examples, code snippets
+	Publishing documentation for API: 
+		usually webpages or pdfs
+		explaining authentication schemas, endpoints, data formatting, 
+		code examples and code snippets
 	
 HTTP Clients
 
