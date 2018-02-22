@@ -1,0 +1,1 @@
+SELECT STRUCT(35 AS age, 'Jacob' as name)
